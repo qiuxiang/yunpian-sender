@@ -4,6 +4,7 @@
   "author": "丘翔 <i@7c00.cc>",
   "version": "1.0.0",
   "main": "main.js",
+  "lisense": "ISC",
   "scripts": {
     "start": "electron .",
     "build": "build"
