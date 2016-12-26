@@ -1,0 +1,13 @@
+body {
+  font-family: '微软雅黑', sans-serif;
+}
+
+form {
+  padding: 10px;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "YunpianSender",
+  "description": "云片网短信群发程序",
+  "author": "丘翔 <i@7c00.cc>",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "build"
+  },
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-builder": "^10.12.0"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "build": {
+    "asarUnpack": "assets"
+  }
+}

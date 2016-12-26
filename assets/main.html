@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>短信群发</title>
+    <link rel="stylesheet" href="pure.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <form class="pure-form pure-form-stacked">
+      <label for="apikey">APIKEY</label>
+      <input id="apikey" type="text" placeholder="账号标识，在云片网管理控制台获取">
+      <label for="content">短息内容</label>
+      <textarea id="content" placeholder="短信内容必须与已审核通过的模板一致"></textarea>
+      <label for="mobiles">手机号码</label>
+      <textarea id="mobiles" placeholder="多个号码以空格、换行、逗号等形式分隔" rows="13"></textarea>
+      <button id="submit" type="submit" class="pure-button pure-button-primary">发送</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
