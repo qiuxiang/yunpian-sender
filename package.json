@@ -2,19 +2,19 @@
   "name": "YunpianSender",
   "description": "云片网短信群发程序",
   "author": "丘翔 <i@7c00.cc>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
-  "lisense": "ISC",
+  "license": "ISC",
   "scripts": {
     "start": "electron .",
     "build": "build"
   },
   "devDependencies": {
-    "electron": "^1.4.13",
-    "electron-builder": "^10.12.0"
+    "electron": "^1.8.8",
+    "electron-builder": "^10.17.3"
   },
   "dependencies": {
-    "request": "^2.79.0"
+    "request": "^2.88.0"
   },
   "build": {
     "asarUnpack": "assets"
